@@ -19,6 +19,8 @@
 		C539DE531A859E21006B7AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C539DE3B1A859E21006B7AF2 /* UIKit.framework */; };
 		C539DE5B1A859E21006B7AF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C539DE591A859E21006B7AF2 /* InfoPlist.strings */; };
 		C539DE5D1A859E21006B7AF2 /* UIGestureRecognizer__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C539DE5C1A859E21006B7AF2 /* UIGestureRecognizer__________Tests.m */; };
+		C5AABA621A859F6600D8735B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AABA611A859F6600D8735B /* ViewController.m */; };
+		C5AABA641A85A6F100D8735B /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AABA631A85A6F100D8735B /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C539DE581A859E21006B7AF2 /* UIGestureRecognizer手势的创建和使用方法Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIGestureRecognizer手势的创建和使用方法Tests-Info.plist"; sourceTree = "<group>"; };
 		C539DE5A1A859E21006B7AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C539DE5C1A859E21006B7AF2 /* UIGestureRecognizer__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer__________Tests.m"; sourceTree = "<group>"; };
+		C5AABA601A859F6600D8735B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5AABA611A859F6600D8735B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5AABA631A85A6F100D8735B /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		C539DE2B1A859E21006B7AF2 = {
 			isa = PBXGroup;
 			children = (
+				C5AABA631A85A6F100D8735B /* cat.png */,
+				C5AABA601A859F6600D8735B /* ViewController.h */,
+				C5AABA611A859F6600D8735B /* ViewController.m */,
 				C539DE3D1A859E21006B7AF2 /* UIGestureRecognizer手势的创建和使用方法 */,
 				C539DE561A859E21006B7AF2 /* UIGestureRecognizer手势的创建和使用方法Tests */,
 				C539DE361A859E21006B7AF2 /* Frameworks */,
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AABA641A85A6F100D8735B /* cat.png in Resources */,
 				C539DE421A859E21006B7AF2 /* InfoPlist.strings in Resources */,
 				C539DE4A1A859E21006B7AF2 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AABA621A859F6600D8735B /* ViewController.m in Sources */,
 				C539DE481A859E21006B7AF2 /* AppDelegate.m in Sources */,
 				C539DE441A859E21006B7AF2 /* main.m in Sources */,
 			);
@@ -437,6 +447,7 @@
 				C539DE621A859E21006B7AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C539DE631A859E21006B7AF2 /* Build configuration list for PBXNativeTarget "UIGestureRecognizer手势的创建和使用方法Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				C539DE651A859E21006B7AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
